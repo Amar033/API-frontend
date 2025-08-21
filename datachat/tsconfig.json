@@ -12,7 +12,8 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "bundler",   // <-- this fixes the error
-    "types": ["vite/client"],
+    "types": ["vite/client", "node"],
+    "skipLibCheck": true,
     "strict": true,
     "jsx": "react-jsx"
   }
